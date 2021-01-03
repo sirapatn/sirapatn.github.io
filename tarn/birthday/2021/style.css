@@ -6,6 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 .perspective {
@@ -63,7 +64,7 @@ body {
 .card span {
     position: absolute;
     bottom: 40px;
-    right: 120px;
+    right: 60px;
     font-size: 37px;
     font-weight: 600;
     transform: translateZ(35px);
